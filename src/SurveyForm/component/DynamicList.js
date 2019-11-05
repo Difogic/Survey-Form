@@ -82,10 +82,7 @@ class DynamicList extends React.Component {
                   {getFieldDecorator(`${isColor}[${k}]`, {
                     initialValue: `#${colors[k]}`
                   })(
-                    <span
-                    // className="dot"
-                    // style={{ backgroundColor: `#${colors[k]}` }}
-                    />
+                    <span />
                   )}
                 </Form.Item>
               )}

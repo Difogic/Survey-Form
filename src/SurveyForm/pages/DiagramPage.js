@@ -9,7 +9,6 @@ const DiagramPage = ({
   transition,
   questionNumber,
   onAnswerChange,
-  isVisible,
   submit,
   isLastPage,
   confirmation
