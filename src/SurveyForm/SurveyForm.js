@@ -11,7 +11,7 @@ message.config({
   maxCount: 1
 });
 
-class SurveyForm extends React.Component {
+export class SurveyForm extends React.Component {
   constructor() {
     super();
     this.state = {

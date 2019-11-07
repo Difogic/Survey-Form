@@ -9,12 +9,15 @@
     "babel-plugin-import": "1.12.2",
     "classnames": "2.2.6",
     "color-scheme": "1.0.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
     "konva": "4.0.15",
     "random-array-generator": "1.0.7",
     "react": "16.10.2",
     "react-dom": "16.10.2",
     "react-konva": "16.10.1-0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-test-renderer": "^16.11.0"
   },
   "devDependencies": {
     "typescript": "3.3.3"
