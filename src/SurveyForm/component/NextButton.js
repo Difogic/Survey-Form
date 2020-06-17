@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "antd";
+/* import { Button } from "antd"; */
 import { directions } from "../constants";
 
 const NextButton = ({
@@ -11,7 +11,7 @@ const NextButton = ({
 }) => {
   return (
     <div className={`${className} next-button`}>
-      <Button
+      <button
         className="button"
         onClick={() => {
           if (isLastPage) {
@@ -22,7 +22,7 @@ const NextButton = ({
         }}
       >
         {buttonText}
-      </Button>
+      </button>
     </div>
   );
 };

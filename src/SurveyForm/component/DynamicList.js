@@ -87,7 +87,7 @@ class DynamicList extends React.Component {
                 </Form.Item>
               )}
               <Form.Item className="dynamic-input">
-                {getFieldDecorator(`${valuesName}[${k}]`)(
+                {getFieldDecorator(`${valuesName}[${k}]`, { initialValue: null })(
                   <div>
                     {k === 0 && (
                       <FocusableInput
