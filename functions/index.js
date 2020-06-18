@@ -42,10 +42,10 @@ cors(req, res, async () => {
     console.log(data)
 
     await transport.sendMail({
-      from: '"p11 Survey Form" <hello@difogic.com>',
-      to: 'hi@p11.com',
+      from: '"P11 Survey Form" <hello@difogic.com>',
+      to: 'hi@p11.co',
       subject: 'New questionnaire reply',
-      text: data.toString()
+      text: JSON.stringify(data, 0, 2)
     })
   }
 

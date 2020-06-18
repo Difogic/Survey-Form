@@ -1,5 +1,9 @@
+body {
+  overflow: hidden;
+}
+
 div {
-  outline: none !important;
+  outline: none !important; /* @FIXME, this is bad */
 }
 
 /**
