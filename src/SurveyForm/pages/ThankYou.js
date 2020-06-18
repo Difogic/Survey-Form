@@ -1,5 +1,5 @@
 import React from "react";
-import thankYouImage from "../../images/thank_you.jpg";
+import thankYouImage from "../../images/cat_mail.png";
 
 const ThankYou = () => {
   return (
@@ -8,7 +8,7 @@ const ThankYou = () => {
         <img className="image" src={thankYouImage} alt="welcome" />
       </div>
       <h1 className="question">
-        Thank you for you time, we will contact you shortly
+        Thanks for your time! We'll be in touch shortly.
       </h1>
     </div>
   );

@@ -1,5 +1,9 @@
+body {
+  overflow: hidden;
+}
+
 div {
-  outline: none !important;
+  outline: none !important; /* @FIXME, this is bad */
 }
 
 /**
@@ -82,7 +86,6 @@ div {
   width: 270px;
   height: 190px;
   max-width: 440px;
-  padding-bottom: 20px;
 }
 
 .input {

@@ -19,6 +19,7 @@ const FormInput = ({
   buttonText
 }) => {
   const [value, setValue] = useState("");
+  const initialValue = null
   return (
     <div className="flex-container">
       <span className="question-number">
@@ -29,7 +30,7 @@ const FormInput = ({
         <div className="question">{header}</div>
         <div className="label">{label}</div>
         <Form.Item>
-          {getFieldDecorator(fieldName)(
+          {getFieldDecorator(fieldName, { initialValue })(
             <div>
               <FocusableInput
                 className="input focus-input"
